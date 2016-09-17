@@ -13,13 +13,16 @@
 
 
 #Ask for a starting year and ending year
-years = 0
+# years = 0
 
+# years = ''
+
+puts "Enter year"
 years = gets.chomp
 
 # if years%4 
-# 1904.upto(2016) do |years|
-	if years%4==0 and years%100 and years%400==0
+# 2000.upto(2016) do |years|
+	if years%4==0 and years%100==0 or years%400==0
 		
 		# puts "Leap Year!"
 
@@ -27,7 +30,7 @@ years = gets.chomp
 
 	
 	
-	puts "Leap Year!"
+	puts "#{years} is a Leap Year!"
 
 		
 
@@ -37,18 +40,20 @@ years = gets.chomp
 # years = gets.chomp
 	
 	else
-	  years%4!=0 and years%100!=0 and years%400!=0
+	  # years%4!=0 and years%400!=0
 
-		years = years.to_s + 1.to_s
+		# years = years.to_s + 1.to_s
 
-	
+		# years = years + 1
 
-		puts "Not a Leap Year!"
+		puts "#{years} is Not a Leap Year!"
 
 	end
 
 	
+# end
 
+puts years
 
 
 	# puts "Not a Leap Year!"
