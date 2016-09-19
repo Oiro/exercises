@@ -1,0 +1,18 @@
+# Please enter name
+puts "Please Enter Name"
+
+
+name1 = ''
+name1 = gets.chomp
+
+# Enter another name
+name2 = ''
+name2 = gets.chomp
+puts "Please Enter Name"
+# Enter end to stop
+end = ''
+end = gets.chomp
+
+#puts "END"
+
+exit

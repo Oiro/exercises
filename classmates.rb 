@@ -1,0 +1,7 @@
+#Please enter name
+name1 = ''
+name1 = gets.chomp
+#Enter another name
+name2 = ''
+name2 = gets.chomp
+#Enter end to stop
