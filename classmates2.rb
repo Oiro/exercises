@@ -1,5 +1,5 @@
 #Enter name.
-#puts "Please Enter name"
+puts "Please Enter name"
 
 
 name = []
